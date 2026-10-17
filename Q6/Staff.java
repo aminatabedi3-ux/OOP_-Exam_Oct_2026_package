@@ -1,0 +1,18 @@
+// Superclass: no main() method
+public class Staff {
+    private String staffNo;
+    private String staffName;
+    private int staffAge;
+
+    public Staff(String staffNo, String staffName, int staffAge) {
+        this.staffNo = staffNo;
+        this.staffName = staffName;
+        this.staffAge = staffAge;
+    }
+
+    public void display() {
+        System.out.println("Staff No: " + staffNo);
+        System.out.println("Name: " + staffName);
+        System.out.println("Age: " + staffAge);
+    }
+}
